@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Sale Website</title>
+    <!-- tailwind and daisy  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- google font awesome  -->
+    <script src="https://kit.fontawesome.com/d92fc9ed82.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Work Sans', sans-serif;
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            background-color: #F8F8F8;
+        }
+
+        .fa-color {
+            color: #fbbf24;
+        }
+
+        .text-area-desing {
+            padding: 5px 24px;
+            font-size: 24px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header section  -->
+    <header class="lg:bg-[#F9F6E2] bg-none mb-10 md:mb-16 lg:mb-28">
+        <!-- banner section  -->
+        <div class="w-9/12 mx-auto">
+            <div class="flex gap-4 flex-col md:flex-col lg:flex-row">
+                <div class="lg:w-6/12 w-full md:w-full flex text-center justify-center items-center py-16 lg:py-0 ">
+                    <div>
+                        <h3 class="text-3xl font-medium lg:mb-11 md:mb-12 mb-4 ">---SALE FEVER---</h3>
+                        <h1 class="text-[#111] font-bold lg:text-6xl text-5xl lg:mb-0 md:mb-12 mb-0">Purchase TK 200 or
+                            
+                            above & get
+                            <span class="text-[#E527B2] lg:font-bold font-semibold">20% off</span>
+                        </h1>
+                        <div class="flex flex-col lg:flex-row lg:mt-16 mt-4  items-center gap-4 justify-center">
+                            <h4 class="font-medium text-2xl">Use Promo Code</h4>
+                            <button
+                                class="bg-[#E527B2] rounded text-white font-semibold text-2xl px-7 py-4 ">SELL200</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-6/12 w-full md:w-full lg:py-8 py-0">
+                    <img src="images/Summer 1.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main section  -->
+    <main class="w-9/12 mx-auto">
+        <section>
+            <!-- Kitchenware  -->
+            <h1 class="font-semibold text-5xl lg:mb-8 mb-10 text-center lg:text-left ">Kitchenware</h1>
+            <div class="flex gap-8 flex-col lg:flex-row md:flex-col">
+                <!-- card section  -->
+                <div class=" w-full lg:w-9/12 md:w-full mb-4 lg:mb-52">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-14 text-center">
+                        <div class="card rounded-lg bg-[#FFF] drop-shadow-lg " onclick="handleClickShowBtn(this)">
+                            <figure class="p-8 rounded-lg mx-5 mt-5 bg-gray-100">
+                                <img src="./images/prod1.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <span class="mt-0">
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                </span>
+                                <h3 class="card-title">K. Accessories</h3>
+                                <p class="font-medium text-xl text-gray-400"> <span id="price-amount">39.10</span> TK</p>
+
+                            </div>
+                        </div>
+                        <div class="card rounded-lg bg-[#FFF] drop-shadow-lg " onclick="handleClickShowBtn(this)">
+                            <figure class="p-8 rounded-lg mx-5 mt-5 bg-gray-100">/
+                                <img src="./images/prod2.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <span class="mt-0">
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                </span>
+                                <h3 class="card-title">K. Accessories</h3>
+                                <p class="font-medium text-xl text-gray-400">59.10 TK</p>
+
+                            </div>
+                        </div>
+                        <div class="card rounded-lg bg-[#FFF] drop-shadow-lg " onclick="handleClickShowBtn(this)">
+                            <figure class="p-8 rounded-lg mx-5 mt-5 bg-gray-100">
+                                <img src="./images/prod3.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <span class="mt-0">
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                </span>
+                                <h3 class="card-title">Home Cooker</h3>
+                                <p class="font-medium text-xl text-gray-400">49.00 TK</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sportswear -->
+                    <h1 class="font-semibold text-5xl mt-14 lg:mb-8 mb-10 text-center lg:text-left ">Sportswear</h1>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-14">
+                        <div class="card rounded-lg bg-[#FFF] drop-shadow-lg" onclick="handleClickShowBtn(this)">
+                            <figure class="p-8 rounded-lg mx-5 mt-5 bg-gray-100">
+                                <img src="./images/prod4.png " alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <span class="mt-0">
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                </span>
+                                <h3 class="card-title">Sports Back Cap</h3>
+                                <p class="font-medium text-xl text-gray-400">49.00 TK</p>
+
+                            </div>
+                        </div>
+                        <div class="card rounded-lg bg-[#FFF] drop-shadow-lg" onclick="handleClickShowBtn(this)">
+                            <figure class="p-8 rounded-lg mx-5 mt-5 bg-gray-100">/
+                                <img src="./images/prod5.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <span class="mt-0">
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                </span>
+                                <h3 class="card-title">Full Jersey Set</h3>
+                                <p class="font-medium text-xl text-gray-400">69.00 TK</p>
+
+                            </div>
+                        </div>
+                        <div class="card rounded-lg bg-[#FFF] drop-shadow-lg" onclick="handleClickShowBtn(this)">
+                            <figure class="p-8 rounded-lg mx-5 mt-5 bg-gray-100">
+                                <img src="./images/prod6.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <span class="mt-0">
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                </span>
+                                <h3 class="card-title">Sports cates</h3>
+                                <p class="font-medium text-xl text-gray-400">159.00 TK</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Furniture -->
+                    <h1 class="font-semibold text-5xl lg:mb-8 mt-14 mb-10 text-center lg:text-left">Furniture</h1>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
+                        <div class="card rounded-lg bg-[#FFF] drop-shadow-lg" onclick="handleClickShowBtn(this)">
+                            <figure class="p-8 rounded-lg mx-5 mt-5 bg-gray-100">
+                                <img src="./images/prod7.png " alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <span class="mt-0">
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-regular fa-star fa-color"></i>
+                                </span>
+                                <h3 class="card-title">Single Relax Chair</h3>
+                                <p class="font-medium text-xl text-gray-400">185.00 TK</p>
+
+                            </div>
+                        </div>
+                        <div class="card rounded-lg bg-[#FFF] drop-shadow-lg" onclick="handleClickShowBtn(this)">
+                            <figure class="p-8 rounded-lg mx-5 mt-5 bg-gray-100">/
+                                <img src="./images/prod8.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <span class="mt-0">
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                </span>
+                                <h3 class="card-title">Children play</h3>
+                                <p class="font-medium text-xl text-gray-400">299.00 TK</p>
+
+                            </div>
+                        </div>
+                        <div class="card rounded-lg bg-[#FFF] drop-shadow-lg" onclick="handleClickShowBtn(this)">
+                            <figure class="p-8 rounded-lg mx-5 mt-5 bg-gray-100">
+                                <img src="./images/prod9.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <span class="mt-0">
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                    <i class="fa-solid fa-star fa-color"></i>
+                                </span>
+                                <h3 class="card-title">Flexible Sofa</h3>
+                                <p class="font-medium text-xl text-gray-400">339.00 TK</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-full lg:w-3/12 md:w-full ">
+                    <!-- Have coupon  -->
+                    <div class="rounded-lg bg-[#FFF] drop-shadow-xl p-6 lg:mb-6 text-left md:text-center lg:text-left">
+                        <h3 class="font-medium text-2xl mb-4">Have coupon?</h3>
+                        <div class="flex">
+                            <input type="text" name="" id="coupon-input"
+                                class=" text-xl w-8/12 border py-2 px-3 border-inherit" placeholder="Coupon code">
+                            <button
+                                class="btn bg-[#E527B2] py-3 px-4 disabled:bg-gray-300 rounded-e-lg ... text-white text-xl "
+                                id="coupon-btn" disabled>Apply</button>
+                        </div>
+                    </div>
+                    <div class="bg-[#FFF] drop-shadow-xl rounded-lg">
+                        <!-- text area   -->
+                        <div class="pt-10 mt-8" id="text-area">
+
+                        </div>
+                        <div class="divider px-5"></div>
+                        <!-- product price related discussion -->
+                        <div class="space-y-4 mb-10 px-8 text-left md:text-center lg:text-left">
+                            <p class="font-medium text-xl">Total price: <span class="text-gray-400"
+                                    id="total-price">00</span><span class="text-gray-400 ">TK</span>
+                            </p>
+                            <p class="font-medium text-xl">Discount : <span class="text-gray-400"
+                                    id="card-discount">00</span><span class="text-gray-400 ">TK</span>
+                            </p>
+                            <p class="font-medium text-xl">Total: <span class="text-gray-400"
+                                    id="card-total-price">00</span><span class="text-gray-400 ">TK</span>
+                            </p>
+                        </div>
+                        <div class="divider px-5"></div>
+                        <div class="text-center  mb-5 md:mb-10 lg:mb-0">
+                            <button id="make-purchase-btn"
+                                class=" bg-[#E527B2] mx-5 mb-10 rounded w-9/12 py-2 text-white font-medium text-2xl disabled:bg-gray-300"
+                                onclick="my_modal_5.showModal()" disabled>Make
+                                Purchase</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- modal section  -->
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+            <form method="dialog" class="modal-box flex justify-center py-20 items-center">
+                <div>
+                    <div class="flex justify-center mb-4"><img src="./images/congo.png" alt=""></div>
+                    <h3 class="text-5xl font-bold text-center">Congratulations</h3>
+                    <p class="py-4 text-xl text-center">Your Purchase the product</p>
+                    <div class="mt-5 text-center">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <button id="go-home-modal-btn" class="btn bg-[#E527B2]  font-medium text-xl text-white">Go
+                            Home</button>
+                    </div>
+                </div>
+            </form>
+        </dialog>
+    </main>
+    <!-- dom js  -->
+    <script src="index.js"></script>
+</body>
+
+</html>
