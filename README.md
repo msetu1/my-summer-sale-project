@@ -1,0 +1,1 @@
+# my-summer-sale-project
